@@ -1,0 +1,6 @@
+service: default
+runtime: go122
+handlers:
+  - url: /.*
+    script: auto
+main: ./cmd/web
